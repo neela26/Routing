@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OscompComponent } from './oscomp/oscomp.component';
+import { ProgcompComponent } from './progcomp/progcomp.component';
+import { DbcompComponent } from './dbcomp/dbcomp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OscompComponent,
+    ProgcompComponent,
+    DbcompComponent
   ],
   imports: [
     BrowserModule,
